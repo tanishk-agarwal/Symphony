@@ -6,8 +6,8 @@ import { playPause, setActiveSong } from "../redux/features/playerSlice";
 
 const SongCard = ({ song, isPlaying, activeSong, data, i }) => {
   //variable created for missing image/coverart
-  const imagesrc = song.images
-    ? song.images.coverart
+  const imagesrc = song.trackMetadata
+    ? song.trackMetadata.displayImageUri
     : "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/0c/c3/27/0cc32710-9ab1-5a3e-968c-8001391538b7/artwork.jpg/400x400cc.jpg";
   const dispatch = useDispatch();
   const handlePauseClick = () => {
@@ -43,7 +43,9 @@ const SongCard = ({ song, isPlaying, activeSong, data, i }) => {
 
       <div className="mt-4 flex flex-col">
         <p className="font-semibold text-lg text-white truncate">
-          <Link to={`/songs/${song?.key}`}>{song.title}</Link>
+          <Link to={`/songs/${song?.artists[0].name}`}>
+            {song.trackMetadata.trackName}
+          </Link>
         </p>
         <p className="text-sm truncate text-gray-300 mt-1">
           <Link
