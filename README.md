@@ -10,13 +10,13 @@ Symphony is a modern music application that provides a fully-fledged music playe
 - Popular music around you
 - Worldwide top charts
 ## Technologies Used:
--React
--Redux
--RapidAPI
+- React
+- Redux
+- RapidAPI
 ## Installation:
--Clone the repository.
--Install dependencies using `npm install`.
--Start the development server using `npm start`.
+- Clone the repository.
+- Install dependencies using `npm install`.
+- Start the development server using `npm start`.
 
 ## Usage
 After following the installation steps, the application should be up and running on http://localhost:3000/. From there, you can use the search bar to find your favorite songs, explore new music, and view the lyrics.
