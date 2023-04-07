@@ -9,7 +9,7 @@ Symphony is a modern music application that provides a fully-fledged music playe
 - Song exploration features
 - Popular music around you
 - Worldwide top charts
-##Technologies Used:
+## Technologies Used:
 -React
 -Redux
 -RapidAPI
