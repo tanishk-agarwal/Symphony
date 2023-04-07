@@ -2,13 +2,13 @@
 Symphony is a modern music application that provides a fully-fledged music player, search functionality, lyrics, and song exploration features. With Symphony, users can easily browse and discover popular music around them and explore worldwide top charts. This project was built using React, Redux, and RapidAPI.
 
 ## Features:
--Modern homepage
--Fully-fledged music player
--Search functionality
--Lyrics
--Song exploration features
--Popular music around you
--Worldwide top charts
+- Modern homepage
+- Fully-fledged music player
+- Search functionality
+- Lyrics
+- Song exploration features
+- Popular music around you
+- Worldwide top charts
 ##Technologies Used:
 -React
 -Redux
